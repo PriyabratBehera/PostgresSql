@@ -1,5 +1,5 @@
 CREATE TABLE reviews (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id SERIAL PRIMARY KEY,
     rating DECIMAL(2 , 1 ),
     series_id INT,
     reviewer_id INT,

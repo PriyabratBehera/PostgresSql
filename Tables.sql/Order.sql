@@ -1,5 +1,5 @@
 CREATE TABLE orders (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id SERIAL PRIMARY KEY,
     order_date DATE,
     amount DECIMAL(8,2),
     customer_id INT,

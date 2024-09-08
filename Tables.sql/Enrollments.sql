@@ -27,3 +27,5 @@ INSERT INTO Enrollments (EnrollmentID, StudentID, CourseID, EnrollmentDate, Grad
 (16, 4, 107, '2024-09-16', 'A'),
 (17, 9, 107, '2024-09-17', 'B+'),
 (18, 10, 108, '2024-09-18', 'A+');
+
+
